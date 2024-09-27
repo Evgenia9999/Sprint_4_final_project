@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 @RunWith(Parameterized.class)
-public class checkTextWhenArrowClicked {
+public class CheckTextWhenArrowClicked {
 
 
     private static WebDriver driver;

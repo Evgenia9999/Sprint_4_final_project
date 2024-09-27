@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 @RunWith(Parameterized.class)
-public class testSamokatOrderLowerButton {
+public class TestSamokatOrderLowerButton {
 
     private WebDriver driver;
 
@@ -21,7 +21,7 @@ public class testSamokatOrderLowerButton {
 
 
 
-    public testSamokatOrderLowerButton(String userName, String userSurname, String userAddress, String userPhone) {
+    public TestSamokatOrderLowerButton(String userName, String userSurname, String userAddress, String userPhone) {
 
         this.userName = userName;
         this.userSurname = userSurname;
