@@ -19,7 +19,7 @@ public class CheckTextWhenArrowClicked {
     private String textFromArrow;
     private String text;
 
-    public checkTextWhenArrowClicked(String arrow, String textFromArrow, String text) {
+    public CheckTextWhenArrowClicked(String arrow, String textFromArrow, String text) {
 
         this.arrow = arrow;
         this.textFromArrow = textFromArrow;

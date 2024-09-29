@@ -15,7 +15,7 @@ class OrderMessageAppearLowerButton {
 
     private By yesInConfirmationMessage = By.xpath(".//button[text()='Да']");
     private By confirmationMessageTitle = By.cssSelector(".Order_ModalHeader__3FDaJ");
-    private By orderConfirmedMessage = By.cssSelector(".Order_ModalHeader__3FDaJ");
+    private By orderConfirmedMessage = By.xpath(".//div[text()='Заказ оформлен']");
 
     public void waitForConfirmationMessage() {
         new WebDriverWait(driver, Duration.ofSeconds(30)).until(driver -> (driver.findElement(confirmationMessageTitle).getText() != null
