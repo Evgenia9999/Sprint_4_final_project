@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 @RunWith(Parameterized.class)
-public class checkTextWhenArrowClicked {
+public class CheckTextWhenArrowClicked {
 
 
     private static WebDriver driver;
@@ -19,7 +19,7 @@ public class checkTextWhenArrowClicked {
     private String textFromArrow;
     private String text;
 
-    public checkTextWhenArrowClicked(String arrow, String textFromArrow, String text) {
+    public CheckTextWhenArrowClicked(String arrow, String textFromArrow, String text) {
 
         this.arrow = arrow;
         this.textFromArrow = textFromArrow;
